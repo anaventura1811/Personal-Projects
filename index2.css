@@ -1,0 +1,88 @@
+html {
+    font-size: 16px;
+}
+
+section.secondary-section, main#main-site, section.main-heading, section.tertiary-section, section.main-section, section.last-section {
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+}
+section.secondary-section, section.main-heading, section.tertiary-section, section.main-section, section.last-section, footer.footer {
+    align-content: space-around;
+}
+
+section.secondary-section {
+    background-color: #c3e1fc;
+}
+
+section.main-section, section.main-heading, footer {
+    background-color: #d0b2d5;
+}
+
+section.tertiary-section {
+    background-color: #d6deff;
+
+}
+
+section.last-section {
+    background-color: white;
+}
+
+footer.footer {
+    width: 98vw;
+    height: 30vh;
+    align-content: center;
+    text-align: center;
+}
+
+footer p#footer-text {
+    padding: 20px;
+    font-weight: 900;
+}
+footer span#footer-copyright, footer p#footer-text, nav#footer-navbar, nav.navigation-menu ul li {
+    color: #5c374c;
+}
+nav#footer-navbar ul li, nav.navigation-menu ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 20px;
+}
+
+nav#footer-navbar ul li {
+    margin-top: 4%;
+    font-weight: 100;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.site-content {
+    align-items: center;
+}
+
+div.subsection {
+    width: 40vw;
+    height: 60vh;
+    flex: 1;
+    background-color: teal;
+    margin: 2%;
+}
+div.box-main-section {
+    width: 40vw;
+    height: 60vh;
+    flex: 1;
+    background-color:teal;
+    margin: 2%;
+}
+
+div.section-5 {
+    background-color: teal;
+    width: 50vw;
+    height: 95vh;
+    flex: 1;
+    margin: 2%;
+}
+div#section-headings.section-5 {
+    background-color: #d0b2d5;
+}
